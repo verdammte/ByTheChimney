@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-#Mom's inventory as of 4/2/2018
+# Inventory as of 4/2/2018
 # Mermaid		|	3 (S/M/L)		    |	20/22/26
 # Dino 	 	    |	1 size			    |	22
 # dog toys 	    |	2 types (3/4 braid)	|	1/2
@@ -16,12 +16,15 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     model = models.CharField(max_length=20)
 
-#class Purchase(models.Model):
-
+class Purchase(models.Model):
+    DateOfPurchase = models.DateTimeField()
+    Location = models.CharField(max_length=30)
+    SpecialEvent = models.BooleanField()
+    CustomerName = models.CharField(max_length=50)
 
 class Transaction(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    dateOfPurchase = models.DateTimeField()
+    purchase = models.ForeignKey(Purchase, on_delete=models.CASCADE)    
     price = models.DecimalField(max_digits=6, decimal_places=2)
     refunded = models.BooleanField()
     dateOfRefund = models.DateTimeField()
