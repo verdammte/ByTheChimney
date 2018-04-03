@@ -35,12 +35,26 @@
     <Compile Include="ByTheChimney\settings.py" />
     <Compile Include="ByTheChimney\urls.py" />
     <Compile Include="ByTheChimney\wsgi.py" />
+    <Compile Include="web_app\admin.py" />
+    <Compile Include="web_app\apps.py" />
+    <Compile Include="web_app\migrations\__init__.py" />
+    <Compile Include="web_app\models.py" />
+    <Compile Include="web_app\tests.py" />
+    <Compile Include="web_app\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="web_app\views.py" />
+    <Compile Include="web_app\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="web_app\templates\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ByTheChimney\" />
+    <Folder Include="web_app\" />
+    <Folder Include="web_app\migrations\" />
+    <Folder Include="web_app\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="ByTheChimney_env\">
