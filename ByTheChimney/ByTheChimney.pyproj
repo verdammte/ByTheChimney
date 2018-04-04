@@ -51,6 +51,8 @@
     <Content Include="web_app\templates\index.html" />
     <Content Include="web_app\templates\web_app\header.html" />
     <Content Include="web_app\templates\web_app\index.html" />
+    <Content Include="web_app\templates\web_app\material.min.css" />
+    <Content Include="web_app\templates\web_app\material.min.js" />
     <Content Include="web_app\templates\web_app\store.html" />
   </ItemGroup>
   <ItemGroup>
