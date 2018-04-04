@@ -49,12 +49,16 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="web_app\templates\index.html" />
+    <Content Include="web_app\templates\web_app\header.html" />
+    <Content Include="web_app\templates\web_app\index.html" />
+    <Content Include="web_app\templates\web_app\store.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ByTheChimney\" />
     <Folder Include="web_app\" />
     <Folder Include="web_app\migrations\" />
     <Folder Include="web_app\templates\" />
+    <Folder Include="web_app\templates\web_app\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="ByTheChimney_env\">
