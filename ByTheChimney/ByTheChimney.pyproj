@@ -49,11 +49,16 @@
   <ItemGroup>
     <Content Include="requirements.txt" />
     <Content Include="web_app\templates\index.html" />
+    <Content Include="web_app\templates\web_app\footer.html" />
     <Content Include="web_app\templates\web_app\header.html" />
+    <Content Include="web_app\templates\web_app\home.html" />
     <Content Include="web_app\templates\web_app\index.html" />
+    <Content Include="web_app\static\web_app\material.min.css" />
+    <Content Include="web_app\static\web_app\material.min.js" />
     <Content Include="web_app\templates\web_app\material.min.css" />
     <Content Include="web_app\templates\web_app\material.min.js" />
     <Content Include="web_app\templates\web_app\store.html" />
+    <Content Include="web_app\templates\web_app\style.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ByTheChimney\" />
@@ -61,6 +66,8 @@
     <Folder Include="web_app\migrations\" />
     <Folder Include="web_app\templates\" />
     <Folder Include="web_app\templates\web_app\" />
+    <Folder Include="C:\Users\bonsa\source\repos\ByTheChimney\ByTheChimney\web_app\static\" />
+    <Folder Include="C:\Users\bonsa\source\repos\ByTheChimney\ByTheChimney\web_app\static\web_app\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="ByTheChimney_env\">
