@@ -64,6 +64,8 @@
     <Folder Include="ByTheChimney\" />
     <Folder Include="web_app\" />
     <Folder Include="web_app\migrations\" />
+    <Folder Include="web_app\static\" />
+    <Folder Include="web_app\static\web_app\" />
     <Folder Include="web_app\templates\" />
     <Folder Include="web_app\templates\web_app\" />
     <Folder Include="C:\Users\bonsa\source\repos\ByTheChimney\ByTheChimney\web_app\static\" />

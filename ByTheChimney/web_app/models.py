@@ -1,15 +1,14 @@
 from django.db import models
 from datetime import *
 
-# Create your models here.
-
-# Inventory as of 4/2/2018
-# Mermaid		|	3 (S/M/L)		    |	20/22/26
-# Dino 	 	    |	1 size			    |	22
-# dog toys 	    |	2 types (3/4 braid)	|	1/2
-# cat toys	    |	1 type			    |	1
-# capes		    |	1 size			    |	20
-# tutu          |   1 size              |   10
+# Inventory as of 4/20/2018
+# Mermaid		|	3 (S/M/L)		    |	20/22/26        <-Hanging, 8x11 sign
+# Dino 	 	    |	1 size			    |	22              <-Hanging, 8x11 sign
+# dog toys 	    |	2 types (3/4 braid)	|	1/2             <-Table, 4x6 sign
+# cat toys	    |	1 type			    |	1               <-Table, 4x6 sign
+# capes		    |	1 size			    |	20              <-Hanging, 8x11 sign
+# dogs capes	|	1 size			    |	8               <-Table, 4x6 sign
+# tutu          |   1 size              |   10              <-Hanging, 8x11 sign, 
 # special orders for capes available
 class Product(models.Model):
     products = (
@@ -18,6 +17,7 @@ class Product(models.Model):
         ('Dog Toy', 'Dog Toy'), 
         ('Cat Toy', 'Cat Toy'), 
         ('Cape', 'Cape'), 
+        ('Dog Cape', 'Dog Cape'), 
         ('Tu-Tu', 'Tu-Tu'),
     )
 
